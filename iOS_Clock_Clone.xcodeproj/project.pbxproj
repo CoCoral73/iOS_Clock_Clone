@@ -12,6 +12,7 @@
 		904788162C77204B00098362 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 904788152C77204B00098362 /* Base */; };
 		904788182C77204C00098362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904788172C77204C00098362 /* Assets.xcassets */; };
 		9047881B2C77204C00098362 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9047881A2C77204C00098362 /* Base */; };
+		90A37DE22C7DA6B200E7BB5D /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A37DE12C7DA6B200E7BB5D /* WorldClockTableViewCell.swift */; };
 		90AC11D92C7CB7CB00546C2A /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AC11D82C7CB7CB00546C2A /* WorldClockViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		904788172C77204C00098362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9047881A2C77204C00098362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9047881C2C77204C00098362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A37DE12C7DA6B200E7BB5D /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 		90AC11D82C7CB7CB00546C2A /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		9047880D2C77204B00098362 /* iOS_Clock_Clone */ = {
 			isa = PBXGroup;
 			children = (
+				90A37DE02C7DA67F00E7BB5D /* Cell */,
 				9047880E2C77204B00098362 /* AppDelegate.swift */,
 				904788102C77204B00098362 /* SceneDelegate.swift */,
 				904788142C77204B00098362 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				9047881C2C77204C00098362 /* Info.plist */,
 			);
 			path = iOS_Clock_Clone;
+			sourceTree = "<group>";
+		};
+		90A37DE02C7DA67F00E7BB5D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				90A37DE12C7DA6B200E7BB5D /* WorldClockTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				90AC11D92C7CB7CB00546C2A /* WorldClockViewController.swift in Sources */,
 				9047880F2C77204B00098362 /* AppDelegate.swift in Sources */,
 				904788112C77204B00098362 /* SceneDelegate.swift in Sources */,
+				90A37DE22C7DA6B200E7BB5D /* WorldClockTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
