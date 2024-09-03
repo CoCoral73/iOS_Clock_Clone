@@ -27,7 +27,7 @@ extension TimeZone {
     
     var city: String? {
         let id = identifier
-        let city = id.components(separatedBy: "/").last
+        let city = id.components(separatedBy: "/").last?.replacingOccurrences(of: "_", with: " ")
         return city
     }
     
