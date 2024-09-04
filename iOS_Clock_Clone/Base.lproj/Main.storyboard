@@ -117,6 +117,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="발견된 결과 없음" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZM-wG-dTt">
+                                <rect key="frame" x="140.66666666666666" y="410.66666666666669" width="112" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="w8v-Q4-bwD">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -148,8 +154,10 @@
                         <viewLayoutGuide key="safeArea" id="4aC-df-xvQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="LZM-wG-dTt" firstAttribute="centerX" secondItem="UdJ-L6-gdv" secondAttribute="centerX" id="C04-MT-UFR"/>
                             <constraint firstItem="w8v-Q4-bwD" firstAttribute="top" secondItem="UdJ-L6-gdv" secondAttribute="top" id="DIp-hb-qMr"/>
                             <constraint firstItem="w8v-Q4-bwD" firstAttribute="leading" secondItem="4aC-df-xvQ" secondAttribute="leading" id="c86-4e-iUY"/>
+                            <constraint firstItem="LZM-wG-dTt" firstAttribute="centerY" secondItem="UdJ-L6-gdv" secondAttribute="centerY" id="vc8-h3-Bpk"/>
                             <constraint firstItem="w8v-Q4-bwD" firstAttribute="bottom" secondItem="4aC-df-xvQ" secondAttribute="bottom" id="vsD-B8-tel"/>
                             <constraint firstItem="w8v-Q4-bwD" firstAttribute="trailing" secondItem="4aC-df-xvQ" secondAttribute="trailing" id="xir-Uh-6wz"/>
                         </constraints>
